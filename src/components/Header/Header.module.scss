@@ -1,0 +1,52 @@
+header {
+    height: 96px;
+    width: 100%;
+    background-color: #1FA8AD;
+
+    .header_content {
+        width: 1297px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 24px;
+
+
+        .logo {
+            width: 200px;
+            margin-right: 31.5px;
+        }
+
+        nav {
+            width: 712px;
+            display: flex;
+            justify-content: space-between;
+            margin-right: 31.5px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+            }
+        }
+
+        .round {
+            width: 48px;
+            height: 48px;
+            margin-right: 19px;
+
+            &:last-of-type {
+                margin-right: 32px;
+            }
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: white;
+            border: 0;
+            color: #1FA8AD;
+            font-weight: 700;
+            font-size: 13px;
+        }
+    }
+}

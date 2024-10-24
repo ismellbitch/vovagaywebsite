@@ -1,0 +1,21 @@
+.LegalAssistanceText {
+    background-color: #E9E6F1;
+
+    .content {
+        padding: 80px 533px 0px 533px;
+
+        p {
+            font-size: 16px;
+            margin-bottom: 60px;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+    }
+}

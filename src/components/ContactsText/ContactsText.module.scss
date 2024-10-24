@@ -1,0 +1,45 @@
+.contactsText {
+    background-color: #E9E6F1;
+    height: 480px;
+
+    .content {
+        padding-top: 80px;
+        width: 1076px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+            height: 445px;
+
+            .block {
+                margin-bottom: 60px;
+                width: 306px;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+
+                h3 {
+                    font-size: 32px;
+                    margin-bottom: 24px;
+                }
+
+                p {
+                    font-size: 18px;
+                    line-height: 22.5px;
+                }
+
+                span {
+                    color: #1FA8AD;
+                }
+            }
+        }
+
+        iframe {
+            border: 0;
+        }
+    }
+}

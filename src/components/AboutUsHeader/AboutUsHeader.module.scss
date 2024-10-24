@@ -1,0 +1,27 @@
+.AboutUsHeader {
+    height: 229px;
+    background-color: rgba($color: #1FA8ADA6, $alpha: 0.65);
+
+    .content {
+        padding: 0 312px;
+
+        nav {
+            padding: 40px 0;
+            display: flex;
+            align-items: center;
+
+            p {
+                margin-right: 16px;
+            }
+
+            img {
+                margin-right: 16px;
+            }
+        }
+
+        h1 {
+            color: white;
+            font-size: 56px;
+        }
+    }
+}

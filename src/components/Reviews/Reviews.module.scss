@@ -1,0 +1,55 @@
+section{
+    text-align: center;
+    
+    h2{
+        margin-bottom: 80px;
+    }
+}
+.zalupa{
+    color: #1A1A1A;
+}
+
+.swiper{
+    width: 1296px;
+    display: flex;
+    flex-direction: row;
+
+    .slide{
+        background-color: white;
+        padding-bottom: 40px;
+
+        img{
+            margin-left: -140px;
+            margin-top: 40px;
+        }
+        
+        .text{
+            height: 330px;
+
+            h3{
+                font-size: 21px;
+                margin-bottom: 24px;
+                text-align: left;
+                margin-left: 40px;
+            }
+    
+            p{
+                font-size: 15px;
+                text-align: justify;
+                width: 336px;
+                margin-left: 40px;
+                margin-bottom: 28px;
+            }
+            h4{
+                font-size: 13px;
+                margin-bottom: 12px;
+                text-align: left;
+                margin-left: 40px;
+            }
+    
+            span{
+                color: rgba($color: black, $alpha: 0.5);
+            }
+        }
+    }
+}

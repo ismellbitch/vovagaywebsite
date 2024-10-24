@@ -1,0 +1,74 @@
+.form {
+    display: flex;
+    flex-direction: row;
+
+    .content {
+        display: flex;
+        align-items: center;
+        padding: 160px 312px;
+
+
+        h2 {
+            width: 636px;
+            font-size: 56px;
+            margin-right: 134px;
+        }
+
+        form {
+            width: 526px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+
+            h3 {
+                font-size: 32px;
+                padding: 48px 60px 40px 60px;
+            }
+
+            .textinput {
+                width: 358px;
+                margin: 0 auto;
+                padding: 20px 24px;
+                margin-bottom: 24px;
+
+                &:last-of-type {
+                    margin-bottom: 28px;
+                }
+            }
+
+            .checkblock {
+                display: flex;
+                flex-direction: row;
+                width: 406px;
+                margin: 0 auto;
+                margin-bottom: 36px;
+
+                .checkinput {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 16px;
+                }
+
+                p {
+                    font-size: 15px;
+                    color: rgba($color: black, $alpha: 0.5);
+                }
+            }
+
+            button {
+                padding: 20px 40px;
+                background-color: #1FA8AD;
+                border: 0;
+                width: 183px;
+                margin: 0 auto;
+                margin-bottom: 48px;
+                color: white;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+span {
+    color: #1FA8AD;
+}

@@ -1,0 +1,64 @@
+.main{
+    background-image: url(../../assets/bg.png);
+    height: 600px;
+
+    .content{
+        padding: 0 312px;
+
+        h1{
+            width: 636px;
+            font-size: 56px;
+            padding-top: 124px;
+            margin-bottom: 266px;
+        }
+        
+        .blocks{
+            display: flex;
+            flex-direction: row;
+            width: 1296px;
+            justify-content: space-between;
+            margin-top: -127px;
+
+            .block{
+                width: 416px;
+                height: 256px;
+                background-color: white;
+                display: flex;
+                flex-direction: row;
+                
+                &:first-of-type{
+                    background-color: #1FA8AD;
+                    
+                    p{
+                        color: white;
+                    }
+
+                    h3{
+                        color: white;
+                    }
+                }
+                img{
+                    width: 79px;
+                    height: 79px;
+                    padding-top: 28px;
+                    padding-left: 32px;
+                }
+                div{
+                    h3{
+                        padding-top: 37.5px;
+                        font-size: 24px;
+                        padding-left: 20px;
+                        margin-bottom: 16px;
+                        color: black;
+                        width: 60px;
+                    }
+                    p{
+                        font-size: 15px;
+                        padding-left: 20px;
+                        width: 253px;
+                    }
+                }
+            }
+        }
+    }
+}
